@@ -15,8 +15,8 @@ class App extends Component {
   removeFriend = id => {
     const friends = this.state.friends.filter(friend => friend.id !== id);
 
-    this.setstate({ friends })
-  }
+    this.setstate({ friends });
+  };
 
 
 
@@ -24,24 +24,24 @@ class App extends Component {
 
     return (
 
-      <div>
+        <Container>
+        <Title>Cartoon Characters</Title>
+
         {this.state.friends.map(apples => (
           <FriendCard
+          removeFriend={this.removeFriend}
+          id={apples.id}
+          key={apples.id}
           name={apples.name}
           image={apples.image}
           occupation={apples.occupation}
           location={apples.location}
-
           />
-
         ))}
 
+        </Container>
 
-      </div>
     );
-
-
-
   }
 }
 

@@ -1,0 +1,48 @@
+.card {
+    background: white;
+    border-radius: 7px;
+    height: 351px;
+    margin: 1rem;
+    position: relative;
+    width: 345px;
+    box-shadow: 0 3px 6px gray, 0 3px 6px lightgray;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .card > .img-container {
+    height: 60%;
+    overflow: auto;
+    text-align: center;
+    background:#6CADDC;
+  }
+
+
+  .card > .img-container > img {
+    width: 57%;
+    height: 97%;
+  }
+  
+  .card > .content {
+    padding-left: 1rem;
+    font-size: 15px;
+    line-height: 2em;
+    
+  }
+  
+  .card > .content > ul {
+    list-style-type: none;
+  }
+  
+  .card > .content > ul > li {
+    margin-top: 10px;
+  }
+
+  .card > .content > .remove {
+      color: red;
+      font-size: 20px;
+      position: absolute;
+      top: -1px;
+      right: 8px;
+      cursor: pointer;
+  }

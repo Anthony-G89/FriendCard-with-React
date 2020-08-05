@@ -82,6 +82,14 @@
       "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
       "occupation": "Ahhhh! A Real Monster!",
       "location": "Under a City Dump"
+    },
+
+    {
+      "id": 13,
+      "name": "Spawn",
+      "image": "https://cdn3.movieweb.com/i/article/jHkr9VXc4fQReJPOD7Ne9OIDtQ4mcw/1200:100/Spawn-Reboot-Movie-3-Demands-Todd-Mcfarlane.jpg",
+      "occupation": "Protect people on earth",
+      "location": "Unknown"
     }
   ]
   
