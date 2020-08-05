@@ -22,11 +22,10 @@ function FriendCard(props) {
                         <strong>LOCATION:</strong>{props.location}
                     </li>
                 </ul>
-                <span onClick={() => props.removeFriend(props.id)} className="remove">
-                    X
-                </span>
-
             </div>
+            <span onClick={() => props.removeFriend(props.id)} className="remove">
+                X
+            </span>
 
         </div>
     )
