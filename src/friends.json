@@ -90,6 +90,15 @@
       "image": "https://cdn3.movieweb.com/i/article/jHkr9VXc4fQReJPOD7Ne9OIDtQ4mcw/1200:100/Spawn-Reboot-Movie-3-Demands-Todd-Mcfarlane.jpg",
       "occupation": "Protect people on earth",
       "location": "Unknown"
+    },
+
+    {
+      "id": 14,
+      "name": "Superman",
+      "image": "https://qph.fs.quoracdn.net/main-qimg-dccbe5959e8415885a206f51bd366aea",
+      "occupation": "Protect people in the city of Metropolis",
+      "location": "Metropolis"
     }
+
   ]
   

@@ -15,8 +15,8 @@ class App extends Component {
   removeFriend = id => {
     const friends = this.state.friends.filter(friend => friend.id !== id);
 
-    this.setstate({ friends });
-  };
+    this.setstate({ friends: friends });
+  }
 
 
 
